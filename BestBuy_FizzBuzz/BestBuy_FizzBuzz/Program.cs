@@ -19,7 +19,7 @@ namespace BestBuy_FizzBuzz
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Start();
-            OpenBrowser("https://localhost:44303/");
+            OpenBrowser("https://localhost:5001/");
         }
 
         /// <summary>
