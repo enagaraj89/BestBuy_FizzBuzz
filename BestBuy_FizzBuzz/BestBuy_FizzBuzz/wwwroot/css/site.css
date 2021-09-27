@@ -1,0 +1,154 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+.bbfb-required:after {
+    color: #dc3545;
+    content: " *";
+}
+
+.bbfb-required-text:after {
+    color: #342f2c;
+    content: " (Required)";
+    font-size: 0.75rem;
+    vertical-align: text-top;
+}
+
+.bbfb-header-wrapper {
+    left: 1.357rem;
+    position: absolute;
+    text-align: left;
+    top: 0.714rem;
+    width: auto;
+}
+
+.bbfb-header-logo-link:link,
+.bbfb-header-logo-link:visited,
+.bbfb-header-logo-link:hover,
+.bbfb-header-logo-link:active,
+.bbfb-header-logo-link:focus {
+    text-decoration: none;
+}
+
+.bbfb-header-logo-link:active,
+.bbfb-header-logo-link:focus {
+    border: none;
+    outline: none;
+}
+
+    .bbfb-header-logo-link:active img,
+    .bbfb-header-logo-link:focus img {
+        outline: 2px dotted #fff;
+    }
+
+.bbfb-header-logo-img {
+    display: inline-block;
+    margin: 0 .857rem 0 0;
+    height: 2.93rem;
+    vertical-align: initial;
+    width: 2.93rem;
+}
+
+.bbfb-header-logo-text-wrapper {
+    color: #fff;
+    font-family: 'ITC Caslon 224 Black', 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: -0.75rem;
+}
+
+.bbfb-header-logo-text-top {
+    display: block;
+    font-size: 1.43rem;
+}
+
+.bbfb-header-logo-text-bottom {
+    display: block;
+    font-size: 1.43rem;
+    line-height: normal;
+}
+
+.bbfb-header-app-name {
+    color: rgba(200,146,17,1);
+    font-family: 'ITC Caslon 224 Black', 'Times New Roman', Times, serif;
+    font-size: 1.143rem;
+    font-weight: bold;
+    margin: 0rem;
+    padding-left: 4rem;
+    text-align: left;
+    text-transform: uppercase;
+}
